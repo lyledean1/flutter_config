@@ -30,7 +30,7 @@ class FlutterConfigPluginWeb {
         return getPlatformVersion();
       default:
         print("This is version is unimplemented for web for flutter_config");
-        return getPlatformVersion();
+        return {"key": "value"};
     }
   }
 
