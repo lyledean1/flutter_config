@@ -29,10 +29,8 @@ class FlutterConfigPluginWeb {
       case 'getPlatformVersion':
         return getPlatformVersion();
       default:
-        throw PlatformException(
-          code: 'Unimplemented',
-          details: 'hello for web doesn\'t implement \'${call.method}\'',
-        );
+        print("This is version is unimplemented for web for flutter_config");
+        return getPlatformVersion();
     }
   }
 
