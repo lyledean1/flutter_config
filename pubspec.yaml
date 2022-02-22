@@ -10,6 +10,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
 
 dev_dependencies:
   flutter_test:
@@ -23,3 +26,7 @@ flutter:
         pluginClass: FlutterConfigPlugin
       ios:
         pluginClass: FlutterConfigPlugin
+      web:
+        pluginClass: FlutterConfigPluginWeb
+        fileName: flutter_config_web.dart
+
